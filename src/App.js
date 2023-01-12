@@ -22,7 +22,7 @@ const [studentData, setStudentData] = useState([])
   return (
     <div className="App">
       <h1>Ayyy, bruh!</h1>
-      <StudentList/>
+      <StudentList studentData={studentData}/>
     </div>
   );
 }
